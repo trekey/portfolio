@@ -120,14 +120,14 @@ body{
 }
 
 
-@media screen and (min-width: 932px){
+/* @media screen and (min-width: 932px){
     .toggle-button{
         display: none;
     }
     #header{
         z-index:0;
     }
-}
+} */
 
 
 .projects .pbannerarea{
