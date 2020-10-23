@@ -4,6 +4,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color:burlywood;
 }
 
 :root{
@@ -119,7 +120,7 @@ body{
 }
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 932px){
     .toggle-button{
         display: none;
     }
@@ -144,5 +145,54 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-  
+
+.card{
+  align-content: space-between;
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
 /* #site-main */
+#education .ebannerarea{
+    
+    margin: 0;
+    position: absolute;
+    top: 210%;
+  left: 35%;
+    transform: translate(-50%, -50%);
+}
+/* #proj{
+position: relative;
+top: 30%;
+font-size: 35px;
+} */
+
+h4{
+    position: absolute;
+    top: 160%;
+    font-size: 35px;
+}
+#abmtxt{
+    
+      font-size: 35px; 
+      top: 255%;
+  position: absolute;
+}
+.aboutbannerarea{
+   
+   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQt19tBRED5LW-ykxbwe8hVqB-x_wA1uZxUDA&usqp=CAU);
+
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    top: 260%;
+ 
+ 
+}
+
+#abmpg{
+    text-align: left;
+    font-size: 20px;
+   font-weight: 550;
+
+}
